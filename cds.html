@@ -576,7 +576,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="kn">import</span> <span class="nn">random</span>
@@ -592,32 +592,12 @@ div#notebook {
 
 <span class="k">def</span> <span class="nf">nested_tuples</span><span class="p">():</span>
     <span class="n">r_1</span> <span class="o">=</span> <span class="p">[(</span><span class="n">i</span><span class="p">,</span> <span class="n">index</span><span class="p">)</span> <span class="k">for</span> <span class="n">index</span><span class="p">,</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">r</span><span class="p">)]</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">r_1</span><span class="p">)</span>
     
 <span class="k">def</span> <span class="nf">flat_tuples</span><span class="p">():</span>
     <span class="n">r_2</span> <span class="o">=</span> <span class="p">[(</span><span class="n">i</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">i</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">index</span><span class="p">)</span> <span class="k">for</span> <span class="n">index</span><span class="p">,</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">r</span><span class="p">)]</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">r_2</span><span class="p">)</span>
-
-<span class="n">nested_tuples</span><span class="p">()</span>
-<span class="n">flat_tuples</span><span class="p">()</span>
 </pre></div>
 
 </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[((MyClassReplacement(some_string=&apos;4.701207787042268&apos;, my_custom_function=&lt;function &lt;listcomp&gt;.&lt;lambda&gt; at 0x104295840&gt;), 0), 0), ((MyClassReplacement(some_string=&apos;4.2570017094112895&apos;, my_custom_function=&lt;function &lt;listcomp&gt;.&lt;lambda&gt; at 0x1042950d0&gt;), 1), 1), ((MyClassReplacement(some_string=&apos;4.4454101607005&apos;, my_custom_function=&lt;function &lt;listcomp&gt;.&lt;lambda&gt; at 0x1042957b8&gt;), 2), 2)]
-[(MyClassReplacement(some_string=&apos;4.701207787042268&apos;, my_custom_function=&lt;function &lt;listcomp&gt;.&lt;lambda&gt; at 0x104295840&gt;), 0, 0), (MyClassReplacement(some_string=&apos;4.2570017094112895&apos;, my_custom_function=&lt;function &lt;listcomp&gt;.&lt;lambda&gt; at 0x1042950d0&gt;), 1, 1), (MyClassReplacement(some_string=&apos;4.4454101607005&apos;, my_custom_function=&lt;function &lt;listcomp&gt;.&lt;lambda&gt; at 0x1042957b8&gt;), 2, 2)]
-</pre>
-</div>
-</div>
-
 </div>
 </div>
 
